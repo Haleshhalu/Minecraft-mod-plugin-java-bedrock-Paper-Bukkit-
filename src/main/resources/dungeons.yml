@@ -1,0 +1,9 @@
+dungeons:
+  ancient_ruins:
+    name: "&5Ancient Ruins"
+    difficulty: NORMAL
+    minimum-level: 5
+    maximum-players: 5
+    boss: ancient_guardian
+    entrance: world,0,80,0
+    rooms: []
