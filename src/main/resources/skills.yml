@@ -1,0 +1,7 @@
+skills:
+  MINING: { display-name: "&7Mining", max-level: 100 }
+  FARMING: { display-name: "&aFarming", max-level: 100 }
+  COMBAT: { display-name: "&cCombat", max-level: 100 }
+  FISHING: { display-name: "&bFishing", max-level: 100 }
+  WOODCUTTING: { display-name: "&6Woodcutting", max-level: 100 }
+  EXPLORATION: { display-name: "&dExploration", max-level: 100 }
