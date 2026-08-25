@@ -1,0 +1,36 @@
+name: BMC5Crossplay
+version: 0.1.0
+main: com.slayerplayz.bmc5crossplay.BMC5Crossplay
+api-version: '26.2'
+author: SlayerPlayz
+description: A modular BMC5-style RPG adventure experience for Paper crossplay servers.
+commands:
+  balance: { description: View your coin balance, permission: bmc5crossplay.balance }
+  bal: { description: View your coin balance, permission: bmc5crossplay.balance }
+  money: { description: View your coin balance, permission: bmc5crossplay.balance }
+  pay: { description: Pay another player, permission: bmc5crossplay.pay, usage: /pay <player> <amount> }
+  adminmoney: { description: Manage player coins, permission: bmc5crossplay.admin }
+  shop: { description: Open the configurable shop, permission: bmc5crossplay.shop }
+  shopadmin: { description: Manage the shop, permission: bmc5crossplay.admin }
+  stats: { description: View RPG stats, permission: bmc5crossplay.stats }
+  skills: { description: View skill levels, permission: bmc5crossplay.skills }
+  iteminfo: { description: Inspect a custom item, permission: bmc5crossplay.stats }
+  customitem: { description: Give custom items, permission: bmc5crossplay.admin }
+  backpack: { description: Open your persistent backpack, permission: bmc5crossplay.backpack }
+  bp: { description: Open your persistent backpack, permission: bmc5crossplay.backpack }
+  quests: { description: View active quests, permission: bmc5crossplay.quests }
+  quest: { description: View a quest, permission: bmc5crossplay.quests }
+  dungeons: { description: View available dungeons, permission: bmc5crossplay.dungeons }
+  bosses: { description: View configured bosses, permission: bmc5crossplay.bosses }
+  boss: { description: Spawn a configured boss, permission: bmc5crossplay.admin }
+permissions:
+  bmc5crossplay.admin: { default: op }
+  bmc5crossplay.balance: { default: true }
+  bmc5crossplay.pay: { default: true }
+  bmc5crossplay.shop: { default: true }
+  bmc5crossplay.stats: { default: true }
+  bmc5crossplay.skills: { default: true }
+  bmc5crossplay.backpack: { default: true }
+  bmc5crossplay.quests: { default: true }
+  bmc5crossplay.dungeons: { default: true }
+  bmc5crossplay.bosses: { default: true }
