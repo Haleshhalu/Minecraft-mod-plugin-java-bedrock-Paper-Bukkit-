@@ -1,0 +1,20 @@
+database:
+  file: data.db
+  async-save-seconds: 30
+economy:
+  currency-name: Coins
+  currency-symbol: "⛃"
+  starting-balance: 100.0
+rpg:
+  starting-level: 1
+  starting-xp: 0.0
+  max-level: 100
+  xp-base: 100.0
+  xp-growth: 1.15
+backpack:
+  default-level: SMALL
+  levels:
+    SMALL: { slots: 9, upgrade-cost: 0 }
+    MEDIUM: { slots: 27, upgrade-cost: 500 }
+    LARGE: { slots: 54, upgrade-cost: 2500 }
+    ENDGAME: { slots: 90, upgrade-cost: 10000 }
