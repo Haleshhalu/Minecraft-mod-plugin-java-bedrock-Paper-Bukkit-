@@ -1,0 +1,11 @@
+bosses:
+  ancient_guardian:
+    name: "&5Ancient Guardian"
+    health: 250
+    damage: 12
+    defense: 8
+    level: 10
+    boss-bar: true
+    spawn: world,0,80,0
+    abilities: [GROUND_SLAM, MINIONS, RAGE_PHASE]
+    loot: [diamond, emerald]
