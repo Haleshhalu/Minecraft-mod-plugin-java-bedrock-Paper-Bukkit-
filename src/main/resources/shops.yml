@@ -1,0 +1,9 @@
+categories:
+  Blocks: [STONE, COBBLESTONE, OAK_LOG]
+  Ores: [iron_ingot, gold_ingot, diamond, emerald]
+  Food: [bread, cooked_beef]
+  Farming: []
+  Tools: []
+  Combat: []
+  Potions: []
+  Special: []
