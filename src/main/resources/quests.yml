@@ -1,0 +1,9 @@
+quests:
+  first_steps:
+    name: "&eFirst Steps"
+    description: "&7Collect 16 bread to prepare for adventure."
+    objectives:
+      - type: COLLECT_ITEM
+        target: BREAD
+        amount: 16
+    rewards: { xp: 100, coins: 100, items: [] }
