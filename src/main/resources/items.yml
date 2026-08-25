@@ -1,0 +1,44 @@
+items:
+  bread:
+    material: BREAD
+    name: "&eBread"
+    lore: ["&7A reliable adventurer's meal."]
+    rarity: COMMON
+    custom-model-data: 0
+    buy-price: 8
+    sell-price: 2
+  iron_ingot:
+    material: IRON_INGOT
+    name: "&fIron Ingot"
+    lore: []
+    rarity: COMMON
+    buy-price: 25
+    sell-price: 10
+  gold_ingot:
+    material: GOLD_INGOT
+    name: "&6Gold Ingot"
+    lore: []
+    rarity: UNCOMMON
+    buy-price: 60
+    sell-price: 24
+  diamond:
+    material: DIAMOND
+    name: "&bDiamond"
+    lore: ["&7A valuable crafting material."]
+    rarity: RARE
+    buy-price: 300
+    sell-price: 120
+  emerald:
+    material: EMERALD
+    name: "&aEmerald"
+    lore: []
+    rarity: UNCOMMON
+    buy-price: 180
+    sell-price: 72
+  cooked_beef:
+    material: COOKED_BEEF
+    name: "&6Cooked Beef"
+    lore: []
+    rarity: COMMON
+    buy-price: 12
+    sell-price: 3
